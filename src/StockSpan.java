@@ -20,7 +20,6 @@ class StockSpanner {
         while(z>0 && nums.get(z-1)<=price){
             z--;
         }
-
         return nums.size()-z;
     }
 }
